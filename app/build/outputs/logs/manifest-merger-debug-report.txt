@@ -1,0 +1,226 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8e2a5dab1b26326cab63297d714d6056\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\3067ab1542d8d989bbbe916023f431d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c698f1ea7a25ac07652c131f2b1bb6b5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\67ac378f7d7d2ae604dfd3ca8f1c3b08\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\e5c2c231cc4496c2167756fb3c77f594\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\ff3d269cee9aed9d10d7506fdba38d11\AndroidManifest.xml:17:1-30:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\3a02469104589d409c58b46fa2eaa092\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\746b80b4766ab2142941f019a8c8a7db\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\abf3fd8f9eb55b2f8a057710df44a2cc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\55ef61e070f9105472ff7605f1899b40\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\bb947a0ac3680b2746a6fbc4fe0ea837\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8e47815f44c1bb8972169ef3fe2a886f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\0a3e823ee99eec12bd99428b98830d76\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c51bcfb30fe549e01ebb992cd58a9706\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\008a4ac98ce85900ff2d9808af7295aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\a927790fde20d8909531407c7589b66f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\a107869fdbccedbfdff8ce1cd1cd431d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\20385c302ff70e206ecc41a3584811fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\fdcaf1a4729946ab8be9d86d57a989cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\f3787ddb2e57694a5be6cb54aa52f6d1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\998f45c0d7f34df6a38841629b1f3ea8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\19ef39eb88b621bbb9391db30b7cc2ec\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\642380e3ee0411fdfdf5f42a635f9e6d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\9a3f5e5a4f13841181f9d8798d66276d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\1f371574cce9a3990d5c7518885732cf\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\9299187114aa826417a0dcd47ec9b9fa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\5bb1d52c5b552cd303d1974c93dfb674\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\f58b5e9047587dbd3c204ecbc10b83fe\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\3806849df27457d859ab9615e38832d0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8070db83d2d2d17d0556941618424714\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\34e5a618afa18a4c31098e974a2fb25f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c68581bc923f4a3e2b94192c1d0b8a74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\e76dd4e6c598ed87ae91fb0963284f16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\36a1b4fcb63e0f05da677f5128108b93\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\901753f2c8f478672d5d4727cad62955\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:8:5-27:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8e2a5dab1b26326cab63297d714d6056\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8e2a5dab1b26326cab63297d714d6056\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c698f1ea7a25ac07652c131f2b1bb6b5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c698f1ea7a25ac07652c131f2b1bb6b5\AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\ff3d269cee9aed9d10d7506fdba38d11\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\ff3d269cee9aed9d10d7506fdba38d11\AndroidManifest.xml:22:5-28:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\746b80b4766ab2142941f019a8c8a7db\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\746b80b4766ab2142941f019a8c8a7db\AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\19ef39eb88b621bbb9391db30b7cc2ec\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\19ef39eb88b621bbb9391db30b7cc2ec\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\642380e3ee0411fdfdf5f42a635f9e6d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\642380e3ee0411fdfdf5f42a635f9e6d\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\19ef39eb88b621bbb9391db30b7cc2ec\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:15:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:9:9-47
+activity#com.s2start.mybooks.ui.CadastroActivity
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:17:9-66
+	android:name
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:17:19-54
+activity#com.s2start.mybooks.ui.BookActivity
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:18:9-53
+	android:name
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:18:19-50
+activity#com.s2start.mybooks.LoginActivity
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:19:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.s2start.mybooks.MainActivity
+ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:26:9-50
+	android:name
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml:26:19-47
+uses-sdk
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8e2a5dab1b26326cab63297d714d6056\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8e2a5dab1b26326cab63297d714d6056\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\3067ab1542d8d989bbbe916023f431d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\3067ab1542d8d989bbbe916023f431d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c698f1ea7a25ac07652c131f2b1bb6b5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c698f1ea7a25ac07652c131f2b1bb6b5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\67ac378f7d7d2ae604dfd3ca8f1c3b08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\67ac378f7d7d2ae604dfd3ca8f1c3b08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\e5c2c231cc4496c2167756fb3c77f594\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\e5c2c231cc4496c2167756fb3c77f594\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\ff3d269cee9aed9d10d7506fdba38d11\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\ff3d269cee9aed9d10d7506fdba38d11\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\3a02469104589d409c58b46fa2eaa092\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\3a02469104589d409c58b46fa2eaa092\AndroidManifest.xml:5:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\746b80b4766ab2142941f019a8c8a7db\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\746b80b4766ab2142941f019a8c8a7db\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\abf3fd8f9eb55b2f8a057710df44a2cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\abf3fd8f9eb55b2f8a057710df44a2cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\55ef61e070f9105472ff7605f1899b40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\55ef61e070f9105472ff7605f1899b40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\bb947a0ac3680b2746a6fbc4fe0ea837\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\bb947a0ac3680b2746a6fbc4fe0ea837\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8e47815f44c1bb8972169ef3fe2a886f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8e47815f44c1bb8972169ef3fe2a886f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\0a3e823ee99eec12bd99428b98830d76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\0a3e823ee99eec12bd99428b98830d76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c51bcfb30fe549e01ebb992cd58a9706\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c51bcfb30fe549e01ebb992cd58a9706\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\008a4ac98ce85900ff2d9808af7295aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\008a4ac98ce85900ff2d9808af7295aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\a927790fde20d8909531407c7589b66f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\a927790fde20d8909531407c7589b66f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\a107869fdbccedbfdff8ce1cd1cd431d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\a107869fdbccedbfdff8ce1cd1cd431d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\20385c302ff70e206ecc41a3584811fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\20385c302ff70e206ecc41a3584811fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\fdcaf1a4729946ab8be9d86d57a989cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\fdcaf1a4729946ab8be9d86d57a989cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\f3787ddb2e57694a5be6cb54aa52f6d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\f3787ddb2e57694a5be6cb54aa52f6d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\998f45c0d7f34df6a38841629b1f3ea8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\998f45c0d7f34df6a38841629b1f3ea8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\19ef39eb88b621bbb9391db30b7cc2ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\19ef39eb88b621bbb9391db30b7cc2ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\642380e3ee0411fdfdf5f42a635f9e6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\642380e3ee0411fdfdf5f42a635f9e6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\9a3f5e5a4f13841181f9d8798d66276d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\9a3f5e5a4f13841181f9d8798d66276d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\1f371574cce9a3990d5c7518885732cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\1f371574cce9a3990d5c7518885732cf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\9299187114aa826417a0dcd47ec9b9fa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\9299187114aa826417a0dcd47ec9b9fa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\5bb1d52c5b552cd303d1974c93dfb674\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\5bb1d52c5b552cd303d1974c93dfb674\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\f58b5e9047587dbd3c204ecbc10b83fe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\f58b5e9047587dbd3c204ecbc10b83fe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\3806849df27457d859ab9615e38832d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\3806849df27457d859ab9615e38832d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8070db83d2d2d17d0556941618424714\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\8070db83d2d2d17d0556941618424714\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\34e5a618afa18a4c31098e974a2fb25f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\34e5a618afa18a4c31098e974a2fb25f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c68581bc923f4a3e2b94192c1d0b8a74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\c68581bc923f4a3e2b94192c1d0b8a74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\e76dd4e6c598ed87ae91fb0963284f16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\e76dd4e6c598ed87ae91fb0963284f16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\36a1b4fcb63e0f05da677f5128108b93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\36a1b4fcb63e0f05da677f5128108b93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\901753f2c8f478672d5d4727cad62955\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\901753f2c8f478672d5d4727cad62955\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\matheus\Documents\MyBooks\app\src\main\AndroidManifest.xml
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\ff3d269cee9aed9d10d7506fdba38d11\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\ff3d269cee9aed9d10d7506fdba38d11\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\ff3d269cee9aed9d10d7506fdba38d11\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\ff3d269cee9aed9d10d7506fdba38d11\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\ff3d269cee9aed9d10d7506fdba38d11\AndroidManifest.xml:24:13-83
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\746b80b4766ab2142941f019a8c8a7db\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\746b80b4766ab2142941f019a8c8a7db\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\746b80b4766ab2142941f019a8c8a7db\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\matheus\.gradle\caches\transforms-2\files-2.1\746b80b4766ab2142941f019a8c8a7db\AndroidManifest.xml:9:13-64

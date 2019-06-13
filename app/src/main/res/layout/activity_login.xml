@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="30dp"
+        >
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario"
+           />
+        <EditText
+            android:id="@+id/senha"
+            android:layout_below="@id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:id="@+id/logar"
+            android:layout_below="@id/senha"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Login"
+            android:background="@drawable/bginput"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            >
+        </Button>
+        <Button
+            android:id="@+id/cadastro"
+            android:layout_below="@id/logar"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Cadastro"
+            android:background="@drawable/bginputout"
+            android:textColor="#333"
+            android:textSize="20dp"
+            >
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>

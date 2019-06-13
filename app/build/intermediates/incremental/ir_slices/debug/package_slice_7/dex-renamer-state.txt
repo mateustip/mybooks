@@ -1,0 +1,4 @@
+#Sun Jun 09 21:32:34 BRT 2019
+base.0=C\:\\Users\\matheus\\Documents\\MyBooks\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

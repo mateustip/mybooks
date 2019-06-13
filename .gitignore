@@ -1,0 +1,9 @@
+package com.offerwise.panelapp.ui.activities;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.WindowManager;
+
+import com.offerwise.panelapp.R;
+
+pub
