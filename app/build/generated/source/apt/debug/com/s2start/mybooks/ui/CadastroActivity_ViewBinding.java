@@ -15,9 +15,9 @@ import java.lang.Override;
 public class CadastroActivity_ViewBinding implements Unbinder {
   private CadastroActivity target;
 
-  private View view2131230757;
+  private View view2131230760;
 
-  private View view2131230827;
+  private View view2131230830;
 
   @UiThread
   public CadastroActivity_ViewBinding(CadastroActivity target) {
@@ -34,7 +34,7 @@ public class CadastroActivity_ViewBinding implements Unbinder {
     target.email = Utils.findRequiredViewAsType(source, R.id.email, "field 'email'", EditText.class);
     target.nome = Utils.findRequiredViewAsType(source, R.id.nome, "field 'nome'", EditText.class);
     view = Utils.findRequiredView(source, R.id.cadastrar, "method 'cadastro'");
-    view2131230757 = view;
+    view2131230760 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -42,7 +42,7 @@ public class CadastroActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.login, "method 'login'");
-    view2131230827 = view;
+    view2131230830 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -63,9 +63,9 @@ public class CadastroActivity_ViewBinding implements Unbinder {
     target.email = null;
     target.nome = null;
 
-    view2131230757.setOnClickListener(null);
-    view2131230757 = null;
-    view2131230827.setOnClickListener(null);
-    view2131230827 = null;
+    view2131230760.setOnClickListener(null);
+    view2131230760 = null;
+    view2131230830.setOnClickListener(null);
+    view2131230830 = null;
   }
 }

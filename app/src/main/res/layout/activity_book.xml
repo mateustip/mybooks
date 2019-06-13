@@ -40,18 +40,46 @@
                 android:text="editora"
                 android:layout_alignRight="@id/image"
                 />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/score2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_alignRight="@id/image"
+                />
         </LinearLayout>
     </LinearLayout>
-<Button
-    android:id="@+id/adicionarwishlist"
-    android:layout_below="@+id/desclivro"
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    android:text="Adicionar a WISHLIST"
-    />
+    <LinearLayout
+        android:id="@+id/aa"
+
+        android:layout_below="@+id/desclivro"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:id="@+id/addbiblioteca"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Add a Biblioteca"
+            android:layout_weight="1"
+
+            />
+        <Button
+            android:id="@+id/adicionarwishlist"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Add a WISHLIST"
+            android:layout_weight="1"
+
+            />
+    </LinearLayout>
+
     <ListView
         android:id="@+id/listcomentarios"
-        android:layout_below="@+id/adicionarwishlist"
+        android:layout_below="@+id/aa"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/stars"
@@ -63,6 +91,7 @@
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:layout_above="@+id/bottom"
+        android:visibility="invisible"
         >
         <TextView
             android:layout_width="wrap_content"
@@ -119,6 +148,7 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:orientation="horizontal"
+         android:visibility="invisible"
         >
     <EditText
         android:id="@+id/descricao"

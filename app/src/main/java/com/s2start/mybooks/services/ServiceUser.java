@@ -42,4 +42,7 @@ public interface ServiceUser {
 
     @POST("wishlist/{id}")
     Call<mss> addWishList(@Path("id") int id,@Body wishlistadd c);
+
+    @GET("biblioteca/{id}")
+    Call<ArrayWish> getBiblioteca(@Path("id") int id);
 }

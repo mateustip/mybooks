@@ -7,10 +7,10 @@
 
     <TextView
         android:id="@+id/nome"
-        android:text="nome"
+        android:text="nome:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:layout_weight="2"
         >
     </TextView>
@@ -20,7 +20,7 @@
         android:text="descricao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:layout_weight="1"
 
         >

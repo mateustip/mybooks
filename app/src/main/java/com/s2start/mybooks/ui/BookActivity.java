@@ -2,21 +2,25 @@ package com.s2start.mybooks.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.s2start.mybooks.LoginActivity;
 import com.s2start.mybooks.MainActivity;
 import com.s2start.mybooks.R;
 import com.s2start.mybooks.app.MyBooksApplication;
@@ -40,8 +44,17 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class BookActivity extends AppCompatActivity {
+
+    @BindView(R.id.stars)
+    LinearLayout Lynearstars;
+
+    @BindView(R.id.bottom)
+    LinearLayout Lynearbottom;
     @BindView(R.id.name)
     TextView name;
+
+    @BindView(R.id.score2)
+    TextView score2;
 
     @BindView(R.id.editora)
     TextView editora;
@@ -83,7 +96,6 @@ public class BookActivity extends AppCompatActivity {
 
 
         retry();
-
     }
 
     public void retry(){
@@ -98,13 +110,16 @@ public class BookActivity extends AppCompatActivity {
             public void onResponse(Call<Book> call, Response<Book> response) {
                 name.setText("Nome: "+ response.body().getNome());
                 editora.setText("Editora: "+ response.body().getEditora());
+                score2.setText("Score: " + response.body().getNota());
                 Picasso.get().load(response.body().getImagem_pequena()).into(image);
 
 
+            if(response.body().getComentario().isEmpty()){
 
-                AdapterComentario adapter = new AdapterComentario(BookActivity.this,response.body().getComentario());
+            }else {
+                AdapterComentario adapter = new AdapterComentario(BookActivity.this, response.body().getComentario());
                 list.setAdapter(adapter);
-
+            }
             }
 
             @Override
@@ -174,6 +189,8 @@ public class BookActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<ArrayWish> call, Response<ArrayWish> response) {
                 retry();
+                Intent i = new Intent(BookActivity.this, MainActivity.class);
+                startActivity(i);
             }
 
             @Override
@@ -195,6 +212,8 @@ public class BookActivity extends AppCompatActivity {
             public void onResponse(Call<mss> call, Response<mss> response) {
                 if(response.message().equals("Insert Done")){
                     retry();
+                    Intent i = new Intent(BookActivity.this, MainActivity.class);
+                    startActivity(i);
                 }
             }
 
@@ -204,6 +223,13 @@ public class BookActivity extends AppCompatActivity {
             }
         });
         //addWishList
+    }
+
+    @OnClick(R.id.addbiblioteca)
+    public void addbiblioteca(){
+        Lynearstars.setVisibility(View.VISIBLE);
+        Lynearbottom.setVisibility(View.VISIBLE);
+
     }
 
 }

@@ -1042,6 +1042,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id aa
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1062,6 +1063,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addbiblioteca
 id adicionarwishlist
 id alertTitle
 id all
@@ -1070,6 +1072,7 @@ id async
 id auto
 id barrier
 id beginning
+id bibliteca
 id blocking
 id bottom
 id buttonPanel
@@ -1186,6 +1189,7 @@ id sair
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
+id score2
 id screen
 id scroll
 id scrollIndicatorDown

@@ -65,22 +65,49 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        SharedPreferences sharedPreferences =  getApplicationContext().getSharedPreferences("user", Context.MODE_PRIVATE);
+        SharedPreferences sharedPreferences =  getApplicationContext().getSharedPreferences("usuario", Context.MODE_PRIVATE);
 
         //chamando o gson
         Gson gson = new Gson();
 
         //colocando o gson em uma string
-        String json =  sharedPreferences.getString("user", null);
+        String json =  sharedPreferences.getString("usuario", null);
 
         //colocando o usuario do gson em um objeto
         User user = gson.fromJson(json, User.class);
         this.user = user;
-        Log.d("id do usuario",""+ user.getId());
+        getBiblioteca();
+    }
 
-        restart();
+    public void getBiblioteca(){
+        //getBiblioteca
+        ServiceUser s = MyBooksApplication.getInstance().getServiceUser();
+
+        Call<ArrayWish> call =  s.getBiblioteca(this.user.getId());
+        call.enqueue(new Callback<ArrayWish>() {
+            @Override
+            public void onResponse(Call<ArrayWish> call, Response<ArrayWish> response) {
+                if(response.code() == 400){
+                    restart();
+                }else if(response.code() == 200) {
+                    titulo.setText("Biblioteca");
+
+                    livros =  response.body().getLivros();
+                    AdapterWishlist adapter = new AdapterWishlist(MainActivity.this, response.body().getLivros());
+                    list.setAdapter(adapter);
+
+                }
+            }
+
+            @Override
+            public void onFailure(Call<ArrayWish> call, Throwable t) {
+
+            }
+        });
+
     }
     public void restart(){
+        titulo.setText("WishList");
 
         ServiceUser s = MyBooksApplication.getInstance().getServiceUser();
 
@@ -90,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<ArrayWish> call, Response<ArrayWish> response) {
 
                 if(response.code() == 400){
-                    restart();
+                    getBiblioteca();
                 }else if(response.code() == 200) {
                     livros =  response.body().getLivros();
                     AdapterWishlist adapter = new AdapterWishlist(MainActivity.this, response.body().getLivros());
@@ -193,6 +220,11 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+    }
+
+    @OnClick(R.id.bibliteca)
+    public void bbiblioteca(){
+        getBiblioteca();
     }
     @OnClick(R.id.recarregar)
     public void recarregar(){
